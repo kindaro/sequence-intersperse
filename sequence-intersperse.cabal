@@ -1,0 +1,10 @@
+cabal-version: 2.4
+name: sequence-intersperse
+version: 0.0.0.0
+
+executable sequence-intersperse
+  main-is: Main.hs
+  other-modules: Function, Applicative
+  build-depends: base, base-unicode-symbols, containers
+  default-extensions: UnicodeSyntax
+  ghc-options: -prof
